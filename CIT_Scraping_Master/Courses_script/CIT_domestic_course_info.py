@@ -1,3 +1,11 @@
+"""Description:
+    * author: Sayem Rahman
+    * company: Fresh Futures/Seeka Technology
+    * position: IT Intern
+    * date: 02-11-20
+    * description:This script extracts all the courses info and save it in csv file.
+"""
+
 import copy
 import csv
 import json
