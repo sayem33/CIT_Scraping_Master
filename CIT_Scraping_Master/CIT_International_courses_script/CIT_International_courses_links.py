@@ -42,17 +42,17 @@ course_links.extend(each_courses_links)
 
 
 # SAVE LINKS TO FILE
-# course_links_file_path = os.getcwd().replace('\\', '/') + '/International_course_links.txt'
-# course_links_file = open(course_links_file_path, 'w')
-#
-# # print(course_links)
-# for i in course_links:
+ course_links_file_path = os.getcwd().replace('\\', '/') + '/International_course_links.txt'
+ course_links_file = open(course_links_file_path, 'w')
+
+#print(course_links)
+for i in course_links:
 #     print(i)
 #     # print(i.strip())
-#     # course_links_file.write(i.strip() + '\n')
-#     if i is not None and i != "" and i != "\n":
-#         if i == course_links[-1]:
-#             course_links_file.write(i.strip())
-#         else:
-#             course_links_file.write(i.strip()+'\n')
-# course_links_file.close()
+ # course_links_file.write(i.strip() + '\n')
+  if i is not None and i != "" and i != "\n":
+    if i == course_links[-1]:
+      course_links_file.write(i.strip())
+    else:
+      course_links_file.write(i.strip()+'\n')
+ course_links_file.close()
