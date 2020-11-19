@@ -1,3 +1,10 @@
+"""Description:
+    * author: Sayem Rahman
+    * company: Fresh Futures/Seeka Technology
+    * position: IT Intern
+    * date: 02-11-20
+    * description:This script extracts all the courses links and save it in txt file.
+"""
 from pathlib import Path
 from urllib.parse import urljoin
 import os
